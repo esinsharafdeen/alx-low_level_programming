@@ -8,17 +8,17 @@
 int main(void)
 {
 
-	char x;
-	char y = '0';
+	char c;
+	char d = '0';
 
-	while (y <= '9')
+	while (d <= '9')
 	{
-		putchar(y);
-		y++;
+		putchar(d);
+		d++;
 	}
-	for (x = 'e'; x <= 'f'; x++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(x);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
