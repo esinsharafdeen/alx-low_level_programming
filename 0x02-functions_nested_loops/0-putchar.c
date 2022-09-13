@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include "main.h"
+
+
 /**
  * main - Entry point
  * Description: a program that prints _putchar
