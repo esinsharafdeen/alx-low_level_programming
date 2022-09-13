@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - prints the n times table
+ * print_times_table - prints the n times table
+ * @n: starting integer
  * Return: Always 0.
  */
 
-int main(void)
+void print_times_table(int n)
 {
 	print_times_table(3);
 	_putchar('\n');
