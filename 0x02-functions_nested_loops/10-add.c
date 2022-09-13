@@ -1,14 +1,17 @@
 #include "main"
-#include <stdio.h>
 
 /**
  * add - adda two integers and returns the result
  * @i: prints int i
  * @k: prints int k
- * Return: Always 0.
+ * Return: Always sum
  */
 
 int add(int i, int k)
 {
-	return (i + k);
+	int sum;
+
+	sum = i + k;
+
+	return (sum);
 }
