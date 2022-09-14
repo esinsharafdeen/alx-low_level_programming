@@ -21,7 +21,7 @@ void times_table(void)
 			t = p / 10;
 			ones = p % 10;
 
-			if (col == '0')
+			if (col == 0)
 			{
 				_putchar('0');
 			}
