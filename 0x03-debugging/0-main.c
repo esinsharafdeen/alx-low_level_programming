@@ -1,33 +1,17 @@
 #include "main.h"
 
 /**
-* positive_or_negative - Finds positive or negative numbers
-*
-* @i: The int to print
+* main - prints a positive or negative integer
 * Return: 0
 */
 
-void positive_or_negative(int i)
+int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	if (i > 0)
-	{
-		printf("%d is positive\n", i);
-	}
-	else if (i == 0)
-	{
-		printf("%d is zero\n", i);
-	}
-	else
-	{
-		printf("%d is negative\n", i);
-	}
+	positive_or_negative(i);
 
 	return (0);
 }
