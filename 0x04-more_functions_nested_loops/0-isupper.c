@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Check the code
+ * _isupper - Checks the code
+ * @c: integer to check for
  *
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
 
 	if (c >= 65 && c <= 90)
 	{
