@@ -2,19 +2,16 @@
 
 /**
  * print_numbers - prints the number from 0 to 9
- * @i: variable
  * Return: Nothing
  */
 
 void print_numbers(void)
 {
-	int i = 0;
+	int i;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i);
-		i++;
 	}
-	putchar('\n');
-
+	putchar(10);
 }
