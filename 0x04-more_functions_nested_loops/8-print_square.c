@@ -2,18 +2,18 @@
 
 /**
  * print_square - prints a square
- * @i: number of lines to be printed
+ * @size: number of lines to be printed
  * Return: Void
  */
 
-void print_square(int i)
+void print_square(int size)
 {
 	int a = 0, b;
 
-	while (a < i && i > 0)
+	while (a < size && size > 0)
 	{
 		b = 0;
-		while (b < i)
+		while (b < size)
 		{
 			_putchar('#');
 			b++;
@@ -23,3 +23,4 @@ void print_square(int i)
 	}
 	if (a == 0)
 		_putchar('\n');
+}
