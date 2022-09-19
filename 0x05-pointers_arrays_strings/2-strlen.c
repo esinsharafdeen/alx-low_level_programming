@@ -8,15 +8,10 @@
 
 int _strlen(char *s)
 {
-	int i;
+	int len = 0;
 
-	strl;
-	s[] = "Software";
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		strl = putchar("%d\n", i);
-	}
-	return (strl);
+	while (s[len])
+		len++;
+	return (len);
 }
 
