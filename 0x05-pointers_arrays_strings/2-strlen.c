@@ -11,7 +11,7 @@ int _strlen(char *s)
 	int i;
 
 	strl;
-	*s[] = "Software";
+	s[] = "Software";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
