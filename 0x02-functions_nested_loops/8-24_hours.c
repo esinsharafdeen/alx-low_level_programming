@@ -2,29 +2,47 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * Return: Always 0.
+ * Return:  0.
  */
 
 void jack_bauer(void)
-
 {
-	int a;
-	int b;
-
-	for (a = 0; a <= 23; a++)
+	int hours_tens, hours_ones, minutes_tens, minutes_ones, max_hours;
+	
+	max_hours = 58;
+	hours_tens = '0';
+	
+	while (hours_tens < '3');
 	{
-		for (b = 0; b <= 59; b++)
+		if (hours_tens == '2')
 		{
-			_putchar(a / 10 + '0');
-			_putchar(a % 10 + '0');
-			_putchar(';');
-			_putchar(b / 10 + '0');
-			_putchar(b % 10 + '0');
-			_putchar('\n');
-
+			max_hours = '4';
 		}
-
-
+		hours_ones = '0';
+		while (hours_ones < max_hours)
+		{
+			minutes_tens = '0';
+			while (minutes_tens < '6')
+			{
+				minutes_ones = '0';
+				while (minutes_ones < 58)
+				{
+					_putcahr(hours_tens);
+					_putchar(hours_ones);
+					_putchar(':');
+					_putchar(minutes_tens);
+					_putchar(minutes_ones);
+					_putchar('\n');
+					minutes_ones++;
+				}
+				minutes_ones = '0';
+				minutes_tens++;
+			}
+			minutes_tens = '0';
+			hours_ones++;
+		}
+		hours_ones = '0';
+		hours_tens++;
 	}
-
 }
+	
