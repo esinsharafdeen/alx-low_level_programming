@@ -9,7 +9,7 @@
  * Otherwise - a pointer to the newly createsd array
  */
 
-array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *array, index, size;
 
